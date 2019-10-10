@@ -1,0 +1,17 @@
+body {
+    background: lightcoral;
+    align-content: center
+}
+
+header {
+    text-align: center;
+    color: slateblue;
+    font-weight: bold;
+
+}
+
+h2 {
+    color: slateblue;
+    text-align: center;
+}
+

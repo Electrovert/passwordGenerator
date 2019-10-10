@@ -1,12 +1,10 @@
-confirm 
+function genPassword() {
+    var inputbox = document.getElementById("password");
+    var results = " ";
+    for (var i = 0; i < 10; i++);
 
-function generatePassword() {
-    var length = 10,
-    charset = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789/)*&^%$#@!"
-    retVal = "";
-    for (var i = 0, n = charset.length; i < length; i++ {
-        retVal += charset.charAt(Math.floor(Math.random() * n));
-    }
-    return retVal;
+    var chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789!@#$%^&*()";
+    var random = Math.floor(Math.random * 40());
+    var result = chars.charAt(random);
 }
 
