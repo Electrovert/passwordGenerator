@@ -7,6 +7,7 @@ header {
     text-align: center;
     color: slateblue;
     font-weight: bold;
+    
 
 }
 
@@ -15,3 +16,6 @@ h2 {
     text-align: center;
 }
 
+#box {
+    vertical-align: middle;
+}
