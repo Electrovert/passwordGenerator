@@ -1,6 +1,6 @@
-var numAmount = prompt("How many characters would you like your password to be?");
-var speChar = confirm("Would you like to add special characters?");
-var numConfirm = confirm("Would you like to include numbers?");
+// var numAmount = prompt("How many characters would you like your password to be?");
+// var speChar = confirm("Would you like to add special characters?");
+// var numConfirm = confirm("Would you like to include numbers?");
 
 
 var char = "abcdefghijklmnopqrstuvwxyzAMBDEFGHIJKLMNOPQRSTUVWXYZ";

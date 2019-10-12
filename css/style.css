@@ -1,0 +1,54 @@
+body {
+    background-image:url("images/greyfloral.png");
+    font-family: 'Vollkorn', serif;
+    text-align: center;
+}
+
+header {
+    color: black;
+    font-weight: bold;
+    
+
+}
+
+h2 {
+    color: black;
+    
+}
+
+#box {
+    align-content: center;
+    text-align: center;
+    border: 2px solid #05365b;
+    border-width: 1px 0px;
+    border-radius: 20px;
+    width: 33.3%;
+    height: 200px;
+    background-color: whitesmoke;
+    overflow: hidden;
+    padding: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+textarea {
+    width: 200px;
+    height: 100px;
+    resize: none;
+    scroll-margin-block: none;
+}
+
+#generate {
+    color: white;
+    background: #05365b;
+    float: left;
+    margin: 0px;
+    position: bottom;
+}
+
+#copy {
+    color: white;
+    background: #055550;
+    float: right;
+    margin: 0px;
+}
