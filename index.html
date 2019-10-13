@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <link rel="stylesheet" type="text/css" href="reset.css">
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Vollkorn&display=swap" rel="stylesheet">
     <title>Password Generator</title>
@@ -16,9 +16,7 @@
     <div id="box">
     <h2>Generate a Password</h2>
       <hr>
-    <textarea rows="4", col="50">
-    Your Secure Password
-    </textarea>
+    <textarea rows="4", col="50" id="output" placeholder="Your Secure Password"></textarea>
     <button id="generate" rows="2" col="20">Generate Password</button>
     <button id="copy">
       Copy to Clipboard
@@ -27,3 +25,4 @@
     <script src="script.js"></script>
   </body>
 </html>
+

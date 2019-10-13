@@ -7,7 +7,9 @@ body {
 header {
     color: black;
     font-weight: bold;
-    
+    font-size: 50px;
+    height: 60px;
+    margin: 10px;
 
 }
 
@@ -19,8 +21,15 @@ h2 {
 }
 
 hr {
-    border: solid darkgrey 2px;
-}
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: solid darkgrey;
+    border-width: 1px;
+
+  }
 
 #box {
     text-align: center;
@@ -32,6 +41,7 @@ hr {
     background-color: rgb(227, 233, 235);
     margin-left: auto;
     margin-right: auto;
+    padding: 20px;
 }
 
 
@@ -39,8 +49,10 @@ textarea {
     width: 200px;
     height: 70px;
     resize: none;
+    border: dashed 2px lightgrey;
     margin: 0;
-    padding: 0;
+    padding: 20px;
+    text-align: center;
     
 }
 
@@ -51,7 +63,7 @@ textarea {
     border-radius: 20px;
     margin: 0px;
     padding: 5px;
-    height: 30px;
+
    
 
     
@@ -64,7 +76,17 @@ textarea {
     border-radius: 20px;
     margin: 0px;
     padding: 5px;
-    height: 30px;
-   
 
+}
+
+@media only screen and (max-width: 680px) {
+    #box {
+        height: 200px;
+        width: 33.3%;
+    }
+
+    textarea {
+        width: 100px;
+        height: 70px;
+    }
 }
