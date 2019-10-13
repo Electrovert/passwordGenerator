@@ -13,7 +13,7 @@ Once generated, the user will have the option to copy the password to their clip
 
 This project is housed on [GitHub Pages](https://electrovert.github.io/passwordGenerator/.).
 
-A screen shot of the application can be found here: ![Password Generator](passwordGenerator.png)
+A screen shot of the application can be found here: ![Password Generator](css/images/passwordGenerator.png)
 
 
 
